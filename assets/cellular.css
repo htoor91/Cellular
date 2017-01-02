@@ -1,0 +1,167 @@
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+html{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Open Sans", sans-serif;
+}
+
+#game-canvas{
+  position: absolute;
+  z-index: -1;
+}
+
+.score{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 48px;
+  color: white;
+  z-index: -1;
+  color: black;
+}
+
+.level{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 48px;
+  color: white;
+  z-index: -1;
+  color: black;
+}
+
+.game-name{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 25px;
+  width: 400px;
+  color: white;
+  font-size: 50px;
+}
+
+.you-win{
+  display: none;
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  font-size: 70px;
+  color: white;
+  animation: fadeIn 3s;
+}
+
+
+.congratulations{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restart{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 50%;
+  width: 250px;
+  font-size: 36px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.restart:hover{
+  cursor: pointer;
+  color: black;
+  background-color: white;
+
+}
+
+.start-screen{
+  display: inline-block;
+  position: absolute;
+  background-image: url('http://res.cloudinary.com/htoor91/image/upload/v1483325724/cells-wallpaper-1_owhwbt.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+.start-game{
+  position: absolute;
+  right: 41%;
+  color: white;
+  top: 65%;
+  height: 40px;
+  width: 250px;
+  font-size: 36px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  background:rgba( 0,0,0,0.4);
+  text-align: center;
+}
+
+.start-game:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.game-title{
+  margin: 150px auto 20px auto;
+  font-size: 64px;
+
+}
+
+.introduction{
+  font-size: 18px;
+  padding: 40px;
+  width: 350px;
+  height: 175px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.introduction li {
+  padding-top: 10px;
+}
+
+.introduction > h1 {
+  font-size: 32px;
+}
+
+h1{
+  margin: 10px auto 0 auto;
+  width: 220px;
+  padding-bottom: 5px;
+  font-size: 24px;
+  border-bottom: 2px solid black;
+}
