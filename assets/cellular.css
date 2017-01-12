@@ -29,6 +29,18 @@ body{
   text-align: center;
   font-size: 25px;
 }
+.winner {
+  text-align: center;
+  font-size: 48px;
+}
+.red {
+  color: red;
+  font-weight: bold;
+}
+.blue {
+  color: blue;
+  font-weight: bold;
+}
 .score{
   position: absolute;
   right: 20px;
