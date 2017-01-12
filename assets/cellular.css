@@ -153,11 +153,15 @@ body{
 
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .introduction{
   font-size: 18px;
   padding: 40px;
   width: 350px;
-  height: 175px;
+  height: 250px;
   background: rgba(255,255,255,0.94);
   color: black;
   border-radius: 5px;
