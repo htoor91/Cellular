@@ -25,6 +25,10 @@ body{
   z-index: -1;
 }
 
+.high-score, .survival-score {
+  text-align: center;
+  font-size: 25px;
+}
 .score{
   position: absolute;
   right: 20px;
@@ -111,22 +115,21 @@ body{
   color: white;
 }
 
-.start-game{
-  position: absolute;
-  right: 41%;
+.start-game, .survival-game, .multiplayer-game{
   color: white;
-  top: 65%;
   height: 40px;
-  width: 250px;
+  width: 225px;
   font-size: 36px;
   border: 2px solid white;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 5px;
   background:rgba( 0,0,0,0.4);
   text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
-.start-game:hover{
+.start-game:hover, .survival-game:hover, .multiplayer-game:hover{
   cursor: pointer;
   background-color: white;
   color: black;
@@ -143,9 +146,9 @@ body{
   padding: 40px;
   width: 350px;
   height: 175px;
-  background: white;
+  background: rgba(255,255,255,0.94);
   color: black;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 0 auto;
   position: relative;
 }
