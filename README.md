@@ -2,7 +2,7 @@
 
 [Cellular live][live]
 
-[live]: http://www.hassantoor.com/Cellular/index.html
+[live]: http://www.hassantoor.com/Cellular
 
 Cellular is a browser-based interactive game that is built using JavaScript and jQuery.
 
