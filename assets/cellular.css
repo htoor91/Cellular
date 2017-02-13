@@ -184,6 +184,15 @@ body{
   font-size: 32px;
 }
 
+.more-projects {
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.more-projects:hover {
+  cursor: pointer;
+}
+
 h1{
   margin: 10px auto 0 auto;
   width: 220px;
