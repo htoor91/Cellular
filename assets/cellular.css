@@ -33,6 +33,13 @@ body{
   text-align: center;
   font-size: 48px;
 }
+.website {
+  text-align: center;
+  font-size: 25px;
+}
+.website a {
+  text-decoration: none;
+}
 .red {
   color: red;
   font-weight: bold;
